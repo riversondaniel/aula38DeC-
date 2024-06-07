@@ -12,9 +12,18 @@ namespace atividade_aula_38
         public string Nome { get; set; }
         public double Preco { get; set; }
         public int Quantidade { get; set; }
+        public Produtos2()
+        {
+        }
+           
+        public produtos2( int id, string nome,double preco, int quantidade,  )
+        {
+            Id = id;
+            Nome = nome;
+            Preco = preco =
+                Quantidade = quantidade;
+        }
 
-        public id
-            publi
 
     }
 }
